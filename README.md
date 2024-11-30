@@ -1,8 +1,6 @@
-# zethereum
-
 # Zethereum: Privacy-Preserving Smart Contracts for Ethereum
 
-**Zethereum** is a bold initiative to integrate private transactions and zero-knowledge (ZK) technologies into Ethereum, empowering users with privacy while leveraging Ethereum's extensive ecosystem. Inspired by the ideals of internet freedom, Zethereum provides a platform for privacy-preserving transactions and ZK-based smart contracts. Inspired by https://x.com/balajis/status/1862548217986269495
+**Zethereum** is a bold initiative to integrate private transactions and zero-knowledge (ZK) technologies into Ethereum, empowering users with privacy while leveraging Ethereum's extensive ecosystem. Inspired by the ideals of internet freedom, Zethereum provides a platform for privacy-preserving transactions and ZK-based smart contracts. Inspired by [this tweet](https://x.com/balajis/status/1862548217986269495)
 
 ## What is Zethereum?
 
@@ -43,21 +41,21 @@ Unlike base-layer changes, Zethereum is deployed as a set of **smart contracts**
 
 ### For Developers
 1. Clone this repository:
-   ```bash
+   ```shell
    git clone https://github.com/zatoshi/zethereum.git
    cd zethereum
    ```
 2. Install dependencies:
-   ```bash
+   ```shell
    npm install
    ```
 3. Deploy the smart contracts to your desired Ethereum network:
-   ```bash
+   ```shell
    npx hardhat deploy --network <network-name>
    ```
 
 4. Interact with the contracts using the Zethereum SDK:
-   ```javascript
+   ```typescript
    const { Zethereum } = require('zethereum-sdk');
    const zethereum = new Zethereum(provider, privateKey);
 
@@ -96,6 +94,6 @@ Zethereum is for educational purposes and supports privacy as a universal human 
 ## Join the Movement
 Privacy is not a crime. If you're passionate about decentralization and freedom, contribute anonymously as part of **Team Zatoshi**!
 
-- 🛠️ [Contribute](CONTRIBUTING.md)
+- 🛠️ [Contribute](./CONTRIBUTING.md)
 - 🌟 [Star this repository](https://github.com/zatoshi/zethereum)
 - 📬 Contact: `anon@zethereum.net`
