@@ -1,13 +1,8 @@
 # zethereum
 
-
-Here’s a draft for your **Zethereum** README:
-
----
-
 # Zethereum: Privacy-Preserving Smart Contracts for Ethereum
 
-**Zethereum** is a bold initiative to integrate private transactions and zero-knowledge (ZK) technologies into Ethereum, empowering users with privacy while leveraging Ethereum's extensive ecosystem. Inspired by the ideals of internet freedom, Zethereum provides a platform for privacy-preserving transactions and ZK-based smart contracts.
+**Zethereum** is a bold initiative to integrate private transactions and zero-knowledge (ZK) technologies into Ethereum, empowering users with privacy while leveraging Ethereum's extensive ecosystem. Inspired by the ideals of internet freedom, Zethereum provides a platform for privacy-preserving transactions and ZK-based smart contracts. Inspired by https://x.com/balajis/status/1862548217986269495
 
 ## What is Zethereum?
 
@@ -103,8 +98,4 @@ Privacy is not a crime. If you're passionate about decentralization and freedom,
 
 - 🛠️ [Contribute](CONTRIBUTING.md)
 - 🌟 [Star this repository](https://github.com/zatoshi/zethereum)
-- 📬 Contact: `anon@zethereum.org`
-
---- 
-
-Let me know if you need tweaks or additional sections!
+- 📬 Contact: `anon@zethereum.net`
