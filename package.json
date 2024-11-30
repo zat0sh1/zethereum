@@ -11,11 +11,17 @@
     "build": "npm run clean && npm run compile && tsc",
     "lint": "solhint 'contracts/**/*.sol'"
   },
-  "keywords": ["ethereum", "privacy", "zero-knowledge", "smart-contracts"],
+  "keywords": [
+    "ethereum",
+    "privacy",
+    "zero-knowledge",
+    "smart-contracts"
+  ],
   "author": "Zatoshi",
   "license": "MIT",
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts-upgradeable": "^5.1.0",
     "@types/jest": "^29.5.14",
     "@types/node": "^22.10.1",
     "ethers": "^6.13.4",
