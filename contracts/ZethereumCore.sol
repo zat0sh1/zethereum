@@ -1,14 +1,11 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.21;
+pragma solidity ^0.8.20;
 
 import "./interfaces/IZethereumCore.sol";
 import "./interfaces/IZethereumVerifier.sol";
 import "./access/ZethereumAccess.sol";
 
-/**
- * @title ZethereumCore
- * @dev Implementation of the core Zethereum privacy features
- */
+/// @title ZethereumCore
 contract ZethereumCore is IZethereumCore, ZethereumAccess {
     // State variables
     IZethereumVerifier private _verifier;
