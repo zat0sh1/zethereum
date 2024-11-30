@@ -19,7 +19,7 @@ abstract contract ZethereumAccess is Initializable, OwnableUpgradeable, UUPSUpgr
      * @dev Initialize the contract
      */
     function __ZethereumAccess_init() internal onlyInitializing {
-        __Ownable_init();
+        __Ownable_init(msg.sender);
         __UUPSUpgradeable_init();
     }
 
